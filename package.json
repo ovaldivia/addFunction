@@ -1,0 +1,33 @@
+{
+  "name": "addfunction",
+  "version": "1.0.0",
+  "description": "Simple module to add values to timesheet systems",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovaldivia/addFunction.git"
+  },
+  "author": "ovaldivia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovaldivia/addFunction/issues"
+  },
+  "homepage": "https://github.com/ovaldivia/addFunction#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
