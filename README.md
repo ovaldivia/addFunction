@@ -18,11 +18,16 @@ npm test
 
 ## Setup
 ```bash
-npm install ovaldivia/addFunction
+npm install
 ```
 
 ## Usage
+Run:
+```bash
+npm install --save ovaldivia/addFunction
+```
 
+In your code add:
 ```bash
 import {addAlphaOne, addAlphaTwo} from addFunction
 
