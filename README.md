@@ -5,8 +5,36 @@ Simple module to add values to timesheet systems
 Node >v11.10.1
 NPM >6.14.4
 
-## Installation
-npm install
-
 ## Build
-npm 
+
+```bash
+npm run build
+```
+
+##Test
+```bash
+npm test
+```
+
+## Setup
+```bash
+npm install ovaldivia/addFunction
+```
+
+## Usage
+
+```bash
+import {addAlphaOne, addAlphaTwo} from addFunction
+
+()=> async {
+    const start = new Date('09/01/2020');
+    const end = new Date('09/02/2020');
+    
+    r1 = addAlphaOne(start, end);
+    r2 = addAlphaTwo(start, end);
+    
+    console.log('addAlphaOne', r1);
+    console.log('addAlphaTwo', r2);
+}
+```
+
