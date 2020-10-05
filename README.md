@@ -34,12 +34,11 @@ import {addAlphaOne, addAlphaTwo} from addFunction
 ()=> async {
     const start = new Date('09/01/2020');
     const end = new Date('09/02/2020');
-    
+
     r1 = addAlphaOne(start, end);
-    r2 = addAlphaTwo(start, end);
-    
+    r2 = await addAlphaTwo(start, end);
+
     console.log('addAlphaOne', r1);
     console.log('addAlphaTwo', r2);
 }
 ```
-
